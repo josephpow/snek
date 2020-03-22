@@ -10,5 +10,8 @@ class Apple {
             ctx.fillStyle = "#FF5733"
             ctx.fillRect(this.x, this.y, scale, scale);
         }
+        this.clear = function () {
+            ctx.clearRect(this.x, this.y, scale, scale);
+        }
     }
 }

@@ -15,6 +15,7 @@ var snake;
         apple.draw();
         if (snake.checkDead()) {
             kill();
+            apple.clear();
             return;
         }
         snake.update();
