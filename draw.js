@@ -21,7 +21,7 @@ var snake;
         snake.update();
         snake.draw();
         snake.checkApple(apple);
-    }, 150);
+    }, 100);
 }());
 
 kill = function () {
